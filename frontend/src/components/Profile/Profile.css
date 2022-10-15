@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.outer{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+    background-image: url("../../resources/bg3.jpg");
+    background-size: cover;
+    backdrop-filter: blur(5em);
+}
+
+.box{
+    width: 80vw;
+    
+}
+
+.head{
+    background-image: url("../../resources/cover3.jpg");
+    background-size: cover;
+    height: 25vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.first{
+    margin: 3vh;
+    margin-left: 0vh;
+    margin-right: 0vh;
+    border-radius: 1vh;
+    overflow: hidden;
+}
+
+.one{
+    margin-left: 5vh;
+    position: relative;
+    margin-top: 14vh;
+}
+
+.pic{
+    text-align: center;
+    overflow: hidden;
+}
+/* 
+#pfp{
+    width: 5vh;
+    height: 5vh;
+} */
+
+.name{
+    margin-left: 3vh;
+    font-weight: 400;
+    text-align: center;
+    font-size: 3vh;
+    color: white;
+}
+
+.body{
+    display: flex;
+    border-radius: 1vh;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+.sec1{
+    width: 35%;
+}
+
+.sec2{
+    width: 63%;
+    padding: 5vh;
+    border-radius: 1vh;
+    background-color: rgb(21, 23, 40);
+
+}
+
+.nav{
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(21, 23, 40);
+}
+
+.info{
+    background-color: rgb(21, 23, 40);
+    width: 100%;
+    margin-bottom: 2.5vh;
+    border-radius: 1vh;
+    padding: 3vh;
+}
+
+.heading{
+    color: rgba(255, 255, 255, 0.352);
+    font-size: 3vh;
+    margin-bottom: 1vh;
+}
+
+.type{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #ccc8db;
+    font-size: 2.1vh;
+    margin-bottom: 0.25vh;
+}
+
+.icon{
+    margin-right: 2vh;
+}
+
+#grad{
+    transform: scale(0.8);
+}
+
+.skills{
+    margin-top: 1vh;
+}
+
+.tag{
+    font-size: 1.6vh !important;
+    background-color: rgba(0, 225, 0, 0.468);
+    margin: 0.7vh;
+}
+
+#nav{
+    margin-left: 30vh;
+}
+
+.md{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.md p{
+    font-size: 2vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.md{
+    color: #dddddd;
+}
+.md h1{
+    font-size: 2rem;
+    margin: 1vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.md h2{
+    font-size: 1.5rem;
+    margin: 2vh;
+    margin-left: 1vh;
+}
+
+.md li{
+    margin-left: 3rem;
+    font-size: 1rem;
+}
+
+.md img{
+    display: inline;
+    margin: 1vh;
+}
